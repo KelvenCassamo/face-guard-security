@@ -1,0 +1,83 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+env.bak/
+venv.bak/
+
+# IDEs and editors
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Build and distribution
+build/
+dist/
+*.egg-info/
+*.egg
+*.whl
+
+# Database (NUNCA envie o banco de dados com rostos reais!)
+face_database.pkl
+*.pkl
+
+# Logs
+*.log
+logs/
+
+# Cache
+.cache/
+*.cache
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*~
+
+# Environment variables
+.env
+.env.local
+
+# Sounds (se você não quiser versionar o arquivo de áudio grande)
+sounds/*.wav
+# Ou mantenha apenas se for essencial (como no seu caso)
+# !sounds/intruso.wav  ← descomente se quiser incluir o alarme
+
+# OpenCV / Video files
+*.avi
+*.mp4
+*.mov
+*.mkv
+
+# Model files (se baixar manualmente)
+*.dat
+*.caffemodel
+*.pb
+*.tflite
+
+# Output images (testes)
+output/
+screenshots/
+captures/
